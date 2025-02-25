@@ -91,10 +91,10 @@ const CreatePost = () => {
                 <div className='flex justify-between border-t py-2 border-t-gray-700'>
                     <div className='flex gap-1 items-center'>
                         <CiImageOn
-                            className='fill-primary w-6 h-6 cursor-pointer'
+                            className='fill-yellow-500 w-6 h-6 cursor-pointer'
                             onClick={() => imgRef.current.click()}
                         />
-                        <BsEmojiSmileFill className='fill-primary w-5 h-5 cursor-pointer' />
+                        <BsEmojiSmileFill className='fill-yellow-500 w-5 h-5 cursor-pointer' />
                     </div>
                     <input type='file' accept='image/*' hidden ref={imgRef} onChange={handleImgChange} />
                     <button className='btn bg-yellow-500 rounded-full btn-sm text-gray-900 px-4'>

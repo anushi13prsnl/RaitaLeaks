@@ -87,7 +87,7 @@ const LoginPage = () => {
 							value={formData.password}
 						/>
 					</label>
-					<button className='btn rounded-full btn-primary text-white'>
+					<button className='btn rounded-full bg-yellow-500 text-gray-900'>
 						{isPending ? "Loading..." : "Login"}
 					</button>
 					{isError && <p className='text-red-500'>{error.message}</p>}
@@ -95,7 +95,7 @@ const LoginPage = () => {
 				<div className='flex flex-col gap-2 mt-4'>
 					<p className='text-white text-lg'>{"Don't"} have an account?</p>
 					<Link to='/signup'>
-						<button className='btn rounded-full btn-primary text-white btn-outline w-full'>Sign up</button>
+						<button className='btn rounded-full bg-yellow-500 text-gray-900 btn-outline w-full'>Sign up</button>
 					</Link>
 				</div>
 			</div>

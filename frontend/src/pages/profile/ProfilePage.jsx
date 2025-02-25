@@ -150,7 +150,7 @@ const ProfilePage = () => {
 								)}
 								{(coverImg || profileImg) && (
 									<button
-										className='btn btn-primary rounded-full btn-sm text-white px-4 ml-2'
+										className='btn bg-yellow-500 rounded-full btn-sm text-gray-900 px-4 ml-2'
 										onClick={async () => {
 											await updateProfile({ coverImg, profileImg });
 											setProfileImg(null);

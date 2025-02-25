@@ -213,7 +213,7 @@ const Post = ({ post }) => {
 											value={comment}
 											onChange={(e) => setComment(e.target.value)}
 										/>
-										<button className='btn btn-primary rounded-full btn-sm text-white px-4'>
+										<button className='btn bg-yellow-500 rounded-full btn-sm text-gray-900 px-4'>
 											{isCommenting ? <LoadingSpinner size='md' /> : "Post"}
 										</button>
 									</form>

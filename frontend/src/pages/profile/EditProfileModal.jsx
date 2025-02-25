@@ -111,7 +111,7 @@ const EditProfileModal = ({ authUser }) => {
 							name='link'
 							onChange={handleInputChange}
 						/>
-						<button className='btn btn-primary rounded-full btn-sm text-white'>
+						<button className='btn bg-yellow-500 rounded-full btn-sm text-gray-900'>
 							{isUpdatingProfile ? "Updating..." : "Update"}
 						</button>
 					</form>
